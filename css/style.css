@@ -1,0 +1,144 @@
+/*===========SEÇÃO TAGS===========*/
+
+body{
+    margin: 0px;
+    color: #40514e;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+header{
+    background-color: #14274e;
+    position: relative;
+    padding-top: 100px;
+}
+
+h1{
+    font-family: "Sacramento", cursive;
+    line-height: double;
+    font-size: 5rem;
+    margin: 0 auto 0 auto;
+    color: #66bfbf;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-family: "Montserrat";
+    font-size: 2.5rem;
+    color: #66bfbf;
+    padding-top: 5%;
+}
+
+h3{
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    color: #11999e;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+    border: dotted black 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+a{
+    color: #11999e;
+    font-family: "Montserrat";
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #eaf6f6;
+}
+
+/*===========SEÇÃO CLASSES===========*/
+
+.subli{
+    text-decoration: underline;
+}
+
+.cerebro-cima{
+    position: absolute;
+    right: 20%;
+    top: 50px;
+    
+}
+
+.cerebro-baixo{
+    position: absolute;
+    left: 20%;
+    bottom: 1%;
+}
+
+.middle-container{
+    margin: 100px auto;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chilli-img{
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 21px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+.bottom-container{
+    background-color: #394867;
+}
+
+.copyright{
+    color: white;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+}
+
+/*===========SEÇÃO ID===========*/
